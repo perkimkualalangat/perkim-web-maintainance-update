@@ -145,6 +145,7 @@ Known real content sizes:
 | Latest commit | `Tambah banner AJK PERKIM di halaman utama` |
 | Working tree | Clean except untracked `.pawprints/`, `assets/img/logo-perkim-kuala-langat.jpg`, `assets/img/logo-perkim-kuala-langat.png` |
 | Remote | `https://github.com/perkimkualalangat/Website-PERKIM.git` |
+| Dashboard repo | `https://github.com/perkimkualalangat/perkim-web-maintainance-update.git`, branch `main`, initial plan commit `aeb9fca`, fix commit `1951bd4` |
 | Live URL | `https://perkimkualalangat.github.io/Website-PERKIM/` |
 | Live response | HTTP 200, ~415 ms, 17,225 bytes |
 | Live title | `PERKIM Kuala Langat — laman draf` |
@@ -192,7 +193,7 @@ These become real, clickable findings in the dashboard. They are not averaged aw
 | Frontend | Vite 8, port 5173, proxy `/api` and `/api/events` |
 | AI | NVIDIA cloud only, `nvidia/nemotron-3-ultra-550b-a55b` |
 | AI key | **missing** — `.env.local` still has the placeholder |
-| Git PAT | **missing** — push will fail until configured |
+| Git PAT | configured in ignored `.env.local`; scopes `repo, workflow`; not committed |
 | Local inference | none — correct for the 8 GB laptop |
 
 ---
@@ -371,8 +372,8 @@ The `/api/sync/*` file-mirror endpoints will be removed or aliased to the Git im
 
 | # | File | Defect | Fix |
 |---:|---|---|---|
-| 1 | `server/scan.mjs` | `runFullScan` calls `scanCategory()` but no such function exists; `styles` hits the default branch and throws | Implement and export `scanCategory`; use it for every category |
-| 2 | `server/server.mjs` line ~741 | Dynamically imports `scanCategory`, which is undefined | Import the real function; delete the duplicate `runFullScanWithProgress` logic |
+| 1 | `server/scan.mjs` | `scanCategory` existed but was not exported; the bottom `export { runFullScan }` duplicated an inline export and made the module a SyntaxError | Exported `scanCategory`; removed the duplicate export. **Fixed in `aeb9fca`** |
+| 2 | `server/server.mjs` line ~741 | Dynamically imports `scanCategory`; it now resolves, but the duplicate scan logic remains | Import the real function; delete the duplicate `runFullScanWithProgress` logic |
 | 3 | `server/deploy.mjs` | Sync step is a `TODO` but reports `completed` | Remove the fake step; deploy starts from the real Git state |
 | 4 | `server/deploy.mjs` | `git add -A`, generic message, push without auth, no preflight | Explicit paths, user message, PAT, fetch/behind checks, audit gate |
 | 5 | `server/deploy.mjs` | `npm run audit --dry-run` is a weak prerequisite check | Verify the script and monitor directory; run a bounded audit only on request |
@@ -385,7 +386,11 @@ The `/api/sync/*` file-mirror endpoints will be removed or aliased to the Git im
 | 12 | `src/App.jsx`, `routes.js`, `entities.js` | NCL routes and entity names | Replace with PERKIM routes and asset groups |
 | 13 | `data/` | 17 NCL JSON files | Delete after scan produces PERKIM manifests |
 | 14 | `README.md`, `start.bat` | NCL instructions | Rewrite for PERKIM |
-| 15 | `.env.local` | Placeholder NVIDIA key; no PAT | User supplies both; UI shows disabled states until then |
+| 15 | `.env.local` | NVIDIA key is still the placeholder; PAT is now configured | Add a real `nvapi-` key; keep the PAT in the ignored `.env.local` only |
+| 16 | `server/deploy.mjs`, `server/sync-engine.mjs` | Duplicate bottom exports made both modules SyntaxErrors | Removed duplicate exports. **Fixed in `aeb9fca`** |
+| 17 | `src/pages/dev/hooks/useDevApi.js`, `src/pages/dev/DevPage.jsx` | Read `import.meta.env.DEV_API_TOKEN` / `ENABLE_DEV_PAGE`, which Vite never exposes | Use `VITE_DEV_API_TOKEN` / `VITE_ENABLE_DEV_PAGE`; added both to `.env.local`. **Fixed in `1951bd4`** |
+| 18 | `server/deploy.mjs` | `runGitDeploy` ignores command exit codes, so a failed push can be reported as success; `shell: true` is used | Check every exit code; use `shell: false`; verify remote SHA |
+| 19 | `server/server.mjs` | CORS headers are emitted, but a disallowed `Origin` is not rejected | Enforce an Origin allow-list before dispatch, in addition to the dev token |
 
 ---
 
