@@ -19,7 +19,7 @@ import { BuildTestTab } from './tabs/BuildTestTab.jsx';
 import { DEV_TABS } from './types.js';
 
 // Feature flag check
-const isDevPageEnabled = () => import.meta.env.ENABLE_DEV_PAGE === 'true';
+const isDevPageEnabled = () => import.meta.env.VITE_ENABLE_DEV_PAGE === 'true';
 
 export default function DevPage() {
   // Feature flag guard

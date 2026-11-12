@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 
-const DEV_API_TOKEN = import.meta.env.DEV_API_TOKEN || '';
+const DEV_API_TOKEN = import.meta.env.VITE_DEV_API_TOKEN || '';
 
 async function devFetch(url, options = {}) {
   const headers = {
