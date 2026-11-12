@@ -1,0 +1,180 @@
+{
+  "costs": [
+    {
+      "cost_id": "COST-SVB-DIF",
+      "name": "Kos kepada Deposit Insurance Fund",
+      "type": "Fiskal",
+      "amount": "~$20 bilion (anggaran)",
+      "bearer": "ACT-BANK-OTHERS",
+      "timing": "Masa depan",
+      "visibility": "Telus",
+      "justice_dimension": "Distributif",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-TERRA-$40B",
+      "name": "Kerugian pelabur runcit (~$40 bilion)",
+      "type": "Modal",
+      "amount": "~$40 bilion",
+      "bearer": "ACT-RETAIL",
+      "timing": "Sekarang",
+      "visibility": "Telus",
+      "justice_dimension": "Distributif",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-TERRA-CONTAGION",
+      "name": "Contagion ke 3AC, Celsius, Voyager",
+      "type": "Modal",
+      "amount": "Berbilion (anggaran)",
+      "bearer": "ACT-RETAIL",
+      "timing": "Sekarang",
+      "visibility": "Separa",
+      "justice_dimension": "Distributif",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-BW-NIXON",
+      "name": "Nixon Shock — penamatan penukaran emas",
+      "type": "Monetari",
+      "amount": "Tidak dapat diukur secara langsung",
+      "bearer": "ACT-DOLLAR-HOLDERS",
+      "timing": "Masa depan",
+      "visibility": "Telus",
+      "justice_dimension": "Antara generasi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-NIXON-1971"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-USDC-DEPEG",
+      "name": "USDC depeg semasa SVB (~$0.87)",
+      "type": "Modal",
+      "amount": "Sementara, pulih dalam beberapa hari",
+      "bearer": "ACT-USDC-HOLDERS",
+      "timing": "Semasa krisis",
+      "visibility": "Telus",
+      "justice_dimension": "Distributif",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-AI-ECOLOGY",
+      "name": "Kos tenaga dan e-waste AI",
+      "type": "Ekologi",
+      "amount": "Tidak dapat diukur sepenuhnya",
+      "bearer": "ACT-COMMUNITIES",
+      "timing": "Masa depan",
+      "visibility": "Separa",
+      "justice_dimension": "Antara generasi",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-AI-DATA-EXTRACT",
+      "name": "Ekstraksi data Global South tanpa pampasan",
+      "type": "Epistemik",
+      "amount": "Tidak dapat diukur",
+      "bearer": "ACT-GLOBAL-SOUTH",
+      "timing": "Sekarang",
+      "visibility": "Tersembunyi",
+      "justice_dimension": "Epistemik",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-UDDIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-EPISTEMIC",
+      "name": "Peralihan autoriti epistemik kepada model",
+      "type": "Epistemik",
+      "amount": "Tidak dapat diukur",
+      "bearer": "ACT-SOCIETY",
+      "timing": "Masa depan",
+      "visibility": "Tersembunyi",
+      "justice_dimension": "Epistemik",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-SHIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-DOLLARIZATION",
+      "name": "Kehilangan kedaulatan monetari akibat dolarisasi stablecoin",
+      "type": "Monetari",
+      "amount": "Tidak dapat diukur",
+      "bearer": "ACT-GHANA-CB",
+      "timing": "Masa depan",
+      "visibility": "Tersembunyi",
+      "justice_dimension": "Antara generasi",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-SANCTIONS",
+      "name": "Kos pengelakan sanctions melalui kripto (~$100 bilion)",
+      "type": "Fiskal",
+      "amount": "~$100 bilion (2025)",
+      "bearer": "ACT-SOCIETY",
+      "timing": "Sekarang",
+      "visibility": "Separa",
+      "justice_dimension": "Prosedural",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "cost_id": "COST-INTERGEN-DEBT",
+      "name": "Hutang awam diwarisi generasi akan datang",
+      "type": "Generasi",
+      "amount": "~100% GDP global (unjuran)",
+      "bearer": "ACT-FUTURE-GEN",
+      "timing": "Masa depan",
+      "visibility": "Telus",
+      "justice_dimension": "Antara generasi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

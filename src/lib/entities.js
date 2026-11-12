@@ -1,0 +1,83 @@
+export const ENTITY_TYPES = [
+  'layers',
+  'systems',
+  'components',
+  'weaknesses',
+  'fallbacks',
+  'costs',
+  'actors',
+  'evidence',
+  'principles',
+  'metrics',
+  'cases',
+  'topics',
+  'narratives',
+  'captures',
+  'reflexivity',
+  'exitvoice',
+  'unknownunknowns',
+];
+
+export const ENTITY_TYPE_LABELS = {
+  layers: { ms: 'Lapis', en: 'Layers' },
+  systems: { ms: 'Sistem', en: 'Systems' },
+  components: { ms: 'Komponen', en: 'Components' },
+  weaknesses: { ms: 'Kelemahan', en: 'Weaknesses' },
+  fallbacks: { ms: 'Fallback', en: 'Fallbacks' },
+  costs: { ms: 'Kos', en: 'Costs' },
+  actors: { ms: 'Aktor', en: 'Actors' },
+  evidence: { ms: 'Bukti', en: 'Evidence' },
+  principles: { ms: 'Prinsip', en: 'Principles' },
+  metrics: { ms: 'Metrik', en: 'Metrics' },
+  cases: { ms: 'Kes', en: 'Cases' },
+  topics: { ms: 'Topik', en: 'Topics' },
+  narratives: { ms: 'Naratif', en: 'Narratives' },
+  captures: { ms: 'Capture', en: 'Captures' },
+  reflexivity: { ms: 'Reflexivity', en: 'Reflexivity' },
+  exitvoice: { ms: 'Exit & Voice', en: 'Exit & Voice' },
+  unknownunknowns: { ms: 'Unknown Unknowns', en: 'Unknown Unknowns' },
+};
+
+export const ENTITY_PLURAL_KEY = {
+  layers: 'entities.layers',
+  systems: 'entities.systems',
+  components: 'entities.components',
+  weaknesses: 'entities.weaknesses',
+  fallbacks: 'entities.fallbacks',
+  costs: 'entities.costs',
+  actors: 'entities.actors',
+  evidence: 'entities.evidence',
+  principles: 'entities.principles',
+  metrics: 'entities.metrics',
+  cases: 'entities.cases',
+  topics: 'entities.topics',
+  narratives: 'entities.narratives',
+  captures: 'entities.captures',
+  reflexivity: 'entities.reflexivity',
+  exitvoice: 'entities.exitvoice',
+  unknownunknowns: 'entities.unknownunknowns',
+};
+
+export const UID_FIELD = {
+  layers: 'layer_id',
+  systems: 'system_id',
+  components: 'component_id',
+  weaknesses: 'weakness_id',
+  fallbacks: 'fallback_id',
+  costs: 'cost_id',
+  actors: 'actor_id',
+  evidence: 'evidence_id',
+  principles: 'principle_id',
+  metrics: 'metric_id',
+  cases: 'case_id',
+  topics: 'topic_id',
+  narratives: 'narrative_id',
+  captures: 'capture_id',
+  reflexivity: 'reflexivity_id',
+  exitvoice: 'exitvoice_id',
+  unknownunknowns: 'unknownunknown_id',
+};
+
+export function uidFieldFor(type) {
+  return UID_FIELD[type] || 'id';
+}

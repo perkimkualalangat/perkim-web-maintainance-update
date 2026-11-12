@@ -1,0 +1,338 @@
+{
+  "evidence": [
+    {
+      "evidence_id": "EV-FDIC-2023-SVB",
+      "source": "FDIC Press Release, 12 Mac 2023",
+      "type": "Laporan",
+      "claim": "Systemic risk exception diaktifkan untuk melindungi semua deposit SVB.",
+      "strength": "Kuat",
+      "date": "2023-03-12",
+      "link": "https://www.fdic.gov/news/press-releases/2023/pr23017.html",
+      "limitations": "Tidak menyatakan kos penuh DIF.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ]
+    },
+    {
+      "evidence_id": "EV-FED-2023-SVB",
+      "source": "Federal Reserve Statement, 12 Mac 2023",
+      "type": "Laporan",
+      "claim": "Fed menyediakan kemudahan pinjaman untuk bank terjejas.",
+      "strength": "Kuat",
+      "date": "2023-03-12",
+      "link": "",
+      "limitations": "Tidak menyatakan jumlah penuh.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FED-2023-SVB"
+      ]
+    },
+    {
+      "evidence_id": "EV-TERRA-2022-POSTMORTEM",
+      "source": "Laporan post-mortem Terra/Luna (pelbagai)",
+      "type": "Laporan",
+      "claim": "UST runtuh kerana reka bentuk algorithmic yang bergantung pada refleksiviti; tiada collateral mencukupi.",
+      "strength": "Kuat",
+      "date": "2022-05",
+      "link": "",
+      "limitations": "Tiada angka rasmi tunggal; bergantung pada analisis pihak ketiga.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ]
+    },
+    {
+      "evidence_id": "EV-TERRA-2022-CHAINALYSIS",
+      "source": "Chainalysis, laporan 2022",
+      "type": "Data",
+      "claim": "~$40 bilion nilai hilang; contagion ke 3AC, Celsius, Voyager.",
+      "strength": "Kuat",
+      "date": "2022-06",
+      "link": "",
+      "limitations": "Angka anggaran; nilai sebenar bergantung pada harga pada masa kejadian.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-CHAINALYSIS"
+      ]
+    },
+    {
+      "evidence_id": "EV-BW-IMF-HISTORY",
+      "source": "IMF — History of Bretton Woods",
+      "type": "Laporan",
+      "claim": "Sistem Bretton Woods berakhir 1971–1973 selepas Nixon menamatkan penukaran dolar kepada emas.",
+      "strength": "Kuat",
+      "date": "1971",
+      "link": "https://www.imf.org/external/about/histcoop.htm",
+      "limitations": "Perspektif institusi IMF; tidak meliputi semua kritik.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ]
+    },
+    {
+      "evidence_id": "EV-BW-NIXON-1971",
+      "source": "Ucapan Nixon, 15 Ogos 1971",
+      "type": "Sejarah",
+      "claim": "Nixon menamatkan penukaran dolar kepada emas secara unilateral.",
+      "strength": "Kuat",
+      "date": "1971-08-15",
+      "link": "",
+      "limitations": "Dokumen politik; bukan analisis ekonomi.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-NIXON-1971"
+      ]
+    },
+    {
+      "evidence_id": "EV-BNM-AR-2025",
+      "source": "Bank Negara Malaysia Annual Report 2025",
+      "type": "Laporan",
+      "claim": "Sistem kewangan Malaysia kekal stabil dengan buffer modal dan kecairan.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Perspektif bank pusat; tidak meliputi shadow banking.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-PIDM-AR-2025",
+      "source": "PIDM Annual Report 2025",
+      "type": "Laporan",
+      "claim": "Insurans deposit meliputi RM250k per depositor per bank.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Tidak meliputi deposit melebihi had.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-PIDM-AR-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-IMF-STABLECOIN-2026",
+      "source": "IMF — Stablecoin Report 2026",
+      "type": "Laporan",
+      "claim": "USDT dan USDC mengawal ~83% pasaran stablecoin $310 bilion; 99% didenominasikan dalam dolar.",
+      "strength": "Kuat",
+      "date": "2026",
+      "link": "",
+      "limitations": "Angka bergantung pada masa laporan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "evidence_id": "EV-CHAINALYSIS-2025",
+      "source": "Chainalysis Crypto Crime Report 2025",
+      "type": "Data",
+      "claim": "Alamat kripto berkaitan negara disanksi menerima >$100 bilion pada 2025.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Angka anggaran; pengelakan sanctions sukar diukur.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-CSA-2025",
+      "source": "Cloud Security Alliance — AI Market Structure 2025",
+      "type": "Laporan",
+      "claim": "3 hyperscaler dan NVIDIA mengawal majoriti kapasiti AI.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Tidak meliputi pemain kecil yang berkembang.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-BIS-AI-2025",
+      "source": "BIS — AI and Financial Stability 2025",
+      "type": "Laporan",
+      "claim": "AI boleh mengukuhkan atau melemahkan feedback loop bergantung pada tadbir urus.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Tidak menyatakan ambang tadbir urus yang tepat.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-GARP-2026",
+      "source": "GARP — Model Risk Management for Agentic AI 2026",
+      "type": "Laporan",
+      "claim": "SR 11-7 menganggap model static; agentic AI adalah dynamic dan autonomous.",
+      "strength": "Kuat",
+      "date": "2026",
+      "link": "",
+      "limitations": "Fokus pada regulasi AS.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-GARP-2026"
+      ]
+    },
+    {
+      "evidence_id": "EV-BIRHANE-2026",
+      "source": "Birhane et al. — Regulatory Capture in AI (ACM 2026)",
+      "type": "Kajian",
+      "claim": "249 instances mekanisme capture dalam 100 artikel berita AI.",
+      "strength": "Kuat",
+      "date": "2026",
+      "link": "",
+      "limitations": "Sample terhad kepada 100 artikel.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ]
+    },
+    {
+      "evidence_id": "EV-SHIN-2025",
+      "source": "Shin — Algorithmic Truth 2025",
+      "type": "Kajian",
+      "claim": "AI memediasi pengetahuan dan legitimasi awam; algorithmic truth tidak neutral.",
+      "strength": "Lemah",
+      "date": "2025",
+      "link": "",
+      "limitations": "Konsep baru; belum diuji secara empirikal meluas.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-SHIN-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-UDDIN-2025",
+      "source": "Uddin — Technocolonialism 2025",
+      "type": "Kajian",
+      "claim": "AI mewujudkan bentuk dominasi kolonial baharu melalui data dan infrastruktur.",
+      "strength": "Lemah",
+      "date": "2025",
+      "link": "",
+      "limitations": "Analisis kualitatif; sukar diukur.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-UDDIN-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-OLG-2026",
+      "source": "OLG Model for South Africa 2026",
+      "type": "Kajian",
+      "claim": "Penangguhan fiskal menyebabkan kohort selepas 2000 rugi >15% konsumsi seumur hidup.",
+      "strength": "Lemah",
+      "date": "2026",
+      "link": "",
+      "limitations": "Model khusus Afrika Selatan; generalisasi terhad.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ]
+    },
+    {
+      "evidence_id": "EV-STERN-NORDHAUS",
+      "source": "Debat Stern vs Nordhaus tentang kadar diskaun",
+      "type": "Teori",
+      "claim": "Kadar diskaun sosial adalah pilihan nilai, bukan teknikal semata-mata.",
+      "strength": "Teoritikal",
+      "date": "2006–2007",
+      "link": "",
+      "limitations": "Tiada konsensus; perdebatan berterusan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Teoritikal",
+      "sources": []
+    },
+    {
+      "evidence_id": "EV-RELOFF-2009",
+      "source": "Reinhart & Rogoff — This Time Is Different (2009)",
+      "type": "Kajian",
+      "claim": "Krisis kewangan berlaku dalam kelompok merentas 66 negara dan 8 abad.",
+      "strength": "Kuat",
+      "date": "2009",
+      "link": "",
+      "limitations": "Kritik metodologi oleh Herndon et al. (2013).",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-RELOFF-2009"
+      ]
+    },
+    {
+      "evidence_id": "EV-WORLD-BANK-FINDEX-2025",
+      "source": "World Bank Global Findex 2025",
+      "type": "Data",
+      "claim": "~1.4 bilion dewasa tanpa akses perkhidmatan kewangan formal.",
+      "strength": "Kuat",
+      "date": "2025",
+      "link": "",
+      "limitations": "Angka berubah mengikut tahun.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-WORLD-BANK-FINDEX-2025"
+      ]
+    },
+    {
+      "evidence_id": "EV-FUTURE-COMMISSIONER-2025",
+      "source": "Wales Future Generations Act 2015",
+      "type": "Laporan",
+      "claim": "Komisioner generasi akan datang wujud tetapi kuasa terhad.",
+      "strength": "Lemah",
+      "date": "2015",
+      "link": "",
+      "limitations": "Kajian kes tunggal.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-FUTURE-COMMISSIONER-2025"
+      ]
+    }
+  ]
+}

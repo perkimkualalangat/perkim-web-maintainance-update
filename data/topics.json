@@ -1,0 +1,110 @@
+{
+  "topics": [
+    {
+      "topic_id": "TOPIC-A-AI-POWER",
+      "name": "AI & Kuasa",
+      "description": "Konsentrasi compute, regulatory capture, autoriti epistemik, Global South, dan kuasa struktur AI.",
+      "components": [
+        "C16-COMPUTE-POWER",
+        "C17-DATA-POWER",
+        "C18-MODEL-GOVERNANCE",
+        "C19-EPISTEMIC-AUTHORITY"
+      ],
+      "actors": [
+        "ACT-NVIDIA",
+        "ACT-HYPERSCALERS",
+        "ACT-GLOBAL-SOUTH",
+        "ACT-REGULATOR-AI"
+      ],
+      "costs": [
+        "COST-AI-ECOLOGY",
+        "COST-AI-DATA-EXTRACT",
+        "COST-EPISTEMIC"
+      ],
+      "open_questions": [
+        "Bolehkah antitrust berkesan dalam pasaran AI?",
+        "Siapa mewakili Global South dalam tadbir urus AI?",
+        "Adakah open-weight model mengurangkan kuasa atau memindahkannya?"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-CSA-2025",
+        "EV-BIRHANE-2026",
+        "EV-SHIN-2025",
+        "EV-UDDIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "topic_id": "TOPIC-B-CRYPTO-STATE",
+      "name": "Kripto & Negara",
+      "description": "Duopoli stablecoin, dolarisasi Global South, sanctions, mBridge, dan perebutan kedaulatan monetari.",
+      "components": [
+        "C20-MONETARY-SOVEREIGNTY",
+        "C21-CAPITAL-CONTROLS",
+        "C22-SANCTIONS",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "actors": [
+        "ACT-TETHER",
+        "ACT-CIRCLE",
+        "ACT-BNM",
+        "ACT-GHANA-CB",
+        "ACT-TREASURY"
+      ],
+      "costs": [
+        "COST-DOLLARIZATION",
+        "COST-SANCTIONS",
+        "COST-USDC-DEPEG"
+      ],
+      "open_questions": [
+        "Bolehkah regulasi stablecoin mengurangkan dolarisasi tanpa mengecualikan Global South?",
+        "Siapa menanggung kos apabila stablecoin depeg?",
+        "Adakah mBridge alternatif atau pelengkap kepada dolar?"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026",
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "topic_id": "TOPIC-C-FIAT-GEN",
+      "name": "Fiat & Generasi",
+      "description": "Hutang awam, inflasi, kadar diskaun sosial, pemindahan kekayaan, dan keadilan antara generasi.",
+      "components": [
+        "C24-INTERGEN-CONTRACT",
+        "C25-DISCOUNT-RATE",
+        "C26-FUTURE-REP",
+        "C27-HIDDEN-LIABILITIES"
+      ],
+      "actors": [
+        "ACT-GOV",
+        "ACT-PARLIAMENT",
+        "ACT-FUTURE-GEN",
+        "ACT-COMMISSIONER",
+        "ACT-ACADEMICS"
+      ],
+      "costs": [
+        "COST-INTERGEN-DEBT",
+        "COST-BW-NIXON"
+      ],
+      "open_questions": [
+        "Bolehkah komisioner generasi akan datang mempunyai kuasa veto?",
+        "Siapa menanggung kos liabiliti tersembunyi?",
+        "Adakah inflasi lebih adil daripada hutang antara generasi?"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026",
+        "EV-STERN-NORDHAUS",
+        "EV-FUTURE-COMMISSIONER-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

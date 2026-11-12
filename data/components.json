@@ -1,0 +1,698 @@
+{
+  "components": [
+    {
+      "component_id": "C01-LEGITIMACY",
+      "name": "Legitimasi & pengiktirafan",
+      "definition": "Penerimaan orang, institusi, dan undang-undang terhadap unit sebagai sah.",
+      "layer_primary": "L1",
+      "control_level": "K2",
+      "actors": [
+        "ACT-BNM",
+        "ACT-IMF"
+      ],
+      "mechanisms": "Legal tender, cukai, pengiktirafan mahkamah, konsensus rangkaian.",
+      "weaknesses": [
+        "W-LEGITIMACY-NARRATIVE"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C02-ISSUANCE",
+      "name": "Peraturan pengeluaran",
+      "definition": "Siapa boleh cipta unit, berapa, bila, dan atas dasar apa.",
+      "layer_primary": "L2",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-TETHER",
+        "ACT-CIRCLE",
+        "ACT-TERRAFORM"
+      ],
+      "mechanisms": "Dasar monetari, protokol, halving, burn, mint.",
+      "weaknesses": [
+        "W-TERRA-ALGO-DESIGN",
+        "W-BW-TRIFFIN"
+      ],
+      "fallbacks": [
+        "F-TERRA-BTC-RESERVE"
+      ],
+      "costs": [
+        "COST-TERRA-$40B"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C03-SETTLEMENT",
+      "name": "Penyelesaian muktamad",
+      "definition": "Bila transaksi dianggap tidak boleh ditarik balik.",
+      "layer_primary": "L3",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-VALIDATORS",
+        "ACT-IMF"
+      ],
+      "mechanisms": "RTGS, finality gadget, pengesahan blok.",
+      "weaknesses": [
+        "W-BW-RIGIDITY"
+      ],
+      "fallbacks": [
+        "F-BW-IMF-LOAN"
+      ],
+      "costs": [
+        "COST-BW-NIXON"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C04-LAW",
+      "name": "Undang-undang & penguatkuasaan",
+      "definition": "Kontrak, hutang, hak milik, dan penipuan boleh dituntut.",
+      "layer_primary": "L2",
+      "control_level": "K1",
+      "actors": [
+        "ACT-SC",
+        "ACT-MAHKAMAH"
+      ],
+      "mechanisms": "Undang-undang kontrak, kebankrapan, penguatkuasaan.",
+      "weaknesses": [
+        "W-LAW-CROSS-BORDER"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C05-CUSTODY",
+      "name": "Keselamatan & kustodi",
+      "definition": "Aset tidak dicuri, dipalsukan, atau hilang.",
+      "layer_primary": "L3",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BANK-MY",
+        "ACT-COINBASE",
+        "ACT-BINANCE"
+      ],
+      "mechanisms": "Insurans deposit, kriptografi, multisig, custody.",
+      "weaknesses": [
+        "W-CUSTODY-PRIVATE-KEY"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-SVB-DIF"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C06-IDENTITY",
+      "name": "Identiti & pematuhan",
+      "definition": "Siapa pengguna, asal dana, pencegahan pengubahan wang.",
+      "layer_primary": "L2",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-BINANCE"
+      ],
+      "mechanisms": "KYC/AML, kad pengenalan, analisis rantaian.",
+      "weaknesses": [
+        "W-IDENTITY-EXCLUSION"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C07-LIQUIDITY",
+      "name": "Kecairan & pembentukan pasaran",
+      "definition": "Keupayaan institusi memenuhi pengeluaran deposit dan obligasi pembayaran tanpa kerugian besar.",
+      "layer_primary": "L4",
+      "control_level": "K2",
+      "actors": [
+        "ACT-SVB",
+        "ACT-FED",
+        "ACT-FDIC",
+        "ACT-BNM"
+      ],
+      "mechanisms": "Deposit, pinjaman antara bank, kemudahan bank pusat.",
+      "weaknesses": [
+        "W-SVB-LIQUIDITY",
+        "W-TERRA-NO-BUFFER"
+      ],
+      "fallbacks": [
+        "F-SVB-SYSTEMIC-EXCEPTION",
+        "F-TERRA-BTC-RESERVE"
+      ],
+      "costs": [
+        "COST-SVB-DIF",
+        "COST-TERRA-$40B"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C08-RISK-CAPITAL",
+      "name": "Pengurusan risiko & modal",
+      "definition": "Sistem mampu menyerap kejutan.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-BANK-MY",
+        "ACT-FDIC"
+      ],
+      "mechanisms": "Modal bank, stress test, insurans, collateral.",
+      "weaknesses": [
+        "W-SVB-LIQUIDITY",
+        "W-MODEL-RISK"
+      ],
+      "fallbacks": [
+        "F-SVB-SYSTEMIC-EXCEPTION"
+      ],
+      "costs": [
+        "COST-SVB-DIF"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C09-AUDIT",
+      "name": "Audit & ketelusan",
+      "definition": "Orang boleh semak sama ada janji ditepati.",
+      "layer_primary": "L3",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-VALIDATORS"
+      ],
+      "mechanisms": "Laporan kewangan, audit, ledger awam.",
+      "weaknesses": [
+        "W-AUDIT-OFFCHAIN"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C10-GOVERNANCE",
+      "name": "Tadbir urus & akauntabiliti",
+      "definition": "Siapa buat keputusan, siapa boleh ditanya.",
+      "layer_primary": "L2",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-TERRAFORM",
+        "ACT-DO-KWON"
+      ],
+      "mechanisms": "Bank pusat, kerajaan, regulator, DAO, foundation.",
+      "weaknesses": [
+        "W-TERRA-CONCENTRATION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-TERRA-$40B"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C11-OPERATIONS",
+      "name": "Daya tahan operasi",
+      "definition": "Sistem berfungsi semasa krisis, serangan, atau bencana.",
+      "layer_primary": "L3",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-PAYNET"
+      ],
+      "mechanisms": "Backup, DRP, node tersebar.",
+      "weaknesses": [
+        "W-OPS-CYBER"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C12-USER-PROTECTION",
+      "name": "Perlindungan pengguna & pertikaian",
+      "definition": "Pengguna dilindungi daripada penipuan dan salah laku.",
+      "layer_primary": "L2",
+      "control_level": "K1",
+      "actors": [
+        "ACT-PIDM",
+        "ACT-FDIC",
+        "ACT-SC"
+      ],
+      "mechanisms": "Insurans deposit, ombudsman, resolution.",
+      "weaknesses": [
+        "W-SVB-UNINSURED-DEPOSITS"
+      ],
+      "fallbacks": [
+        "F-SVB-SYSTEMIC-EXCEPTION"
+      ],
+      "costs": [
+        "COST-SVB-DIF"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB",
+        "EV-PIDM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C13-INCENTIVES",
+      "name": "Insentif & penjajaran",
+      "definition": "Peserta bertindak selaras dengan kestabilan sistem.",
+      "layer_primary": "L4",
+      "control_level": "K2",
+      "actors": [
+        "ACT-BNM",
+        "ACT-TERRAFORM",
+        "ACT-VALIDATORS"
+      ],
+      "mechanisms": "Kadar faedah, staking, slashing, fee.",
+      "weaknesses": [
+        "W-TERRA-ALGO-DESIGN"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C14-INTEROP",
+      "name": "Interoperability & standard",
+      "definition": "Sistem boleh berhubung dengan sistem lain.",
+      "layer_primary": "L3",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-IMF",
+        "ACT-VALIDATORS"
+      ],
+      "mechanisms": "SWIFT, ISO 20022, IBC, bridge.",
+      "weaknesses": [
+        "W-BW-ASYMMETRY",
+        "W-INTEROP-BRIDGE"
+      ],
+      "fallbacks": [
+        "F-BW-GOLD-POOL"
+      ],
+      "costs": [
+        "COST-BW-NIXON"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C15-CRISIS-COMMS",
+      "name": "Komunikasi krisis & pengurusan kecemasan",
+      "definition": "Ada protokol bila kepercayaan goyah.",
+      "layer_primary": "L1",
+      "control_level": "K2",
+      "actors": [
+        "ACT-FDIC",
+        "ACT-FED",
+        "ACT-BNM"
+      ],
+      "mechanisms": "Bailout, moratorium, jaminan deposit, pause contract.",
+      "weaknesses": [
+        "W-CRISIS-SPEED"
+      ],
+      "fallbacks": [
+        "F-SVB-SYSTEMIC-EXCEPTION"
+      ],
+      "costs": [
+        "COST-SVB-DIF"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C16-COMPUTE-POWER",
+      "name": "Kuasa komputasi",
+      "definition": "Siapa memiliki cip, pusat data, tenaga.",
+      "layer_primary": "L3",
+      "control_level": "K4",
+      "actors": [
+        "ACT-NVIDIA",
+        "ACT-HYPERSCALERS"
+      ],
+      "mechanisms": "Pemilikan cip, pusat data, kontrak tenaga.",
+      "weaknesses": [
+        "W-COMPUTE-CONCENTRATION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-AI-ECOLOGY"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C17-DATA-POWER",
+      "name": "Kuasa data",
+      "definition": "Siapa memiliki dan boleh menggunakan data.",
+      "layer_primary": "L3",
+      "control_level": "K3",
+      "actors": [
+        "ACT-HYPERSCALERS",
+        "ACT-GLOBAL-SOUTH"
+      ],
+      "mechanisms": "Pengumpulan data, latihan model, ekstraksi.",
+      "weaknesses": [
+        "W-DATA-EXTRACTION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-AI-DATA-EXTRACT"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-UDDIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C18-MODEL-GOVERNANCE",
+      "name": "Tadbir urus model",
+      "definition": "Siapa mengaudit, mengesahkan, menghentikan model.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-REGULATOR-AI",
+        "ACT-HYPERSCALERS"
+      ],
+      "mechanisms": "Audit bebas, validation, kill switch.",
+      "weaknesses": [
+        "W-MODEL-RISK",
+        "W-MODEL-VALIDATION-GAP"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-GARP-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C19-EPISTEMIC-AUTHORITY",
+      "name": "Autoriti epistemik",
+      "definition": "Siapa dianggap tahu — model atau manusia.",
+      "layer_primary": "L4",
+      "control_level": "K2",
+      "actors": [
+        "ACT-HYPERSCALERS",
+        "ACT-MEDIA"
+      ],
+      "mechanisms": "Algorithmic truth, pengesahan fakta automatik.",
+      "weaknesses": [
+        "W-EPISTEMIC-SHIFT"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-EPISTEMIC"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-SHIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C20-MONETARY-SOVEREIGNTY",
+      "name": "Kedaulatan monetari",
+      "definition": "Siapa boleh mencipta dan mengawal mata wang.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-TETHER",
+        "ACT-CIRCLE"
+      ],
+      "mechanisms": "Legal tender, cukai, kawalan modal, stablecoin.",
+      "weaknesses": [
+        "W-STABLECOIN-DOLLARIZATION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-DOLLARIZATION"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C21-CAPITAL-CONTROLS",
+      "name": "Kawalan modal",
+      "definition": "Siapa boleh menghalang aliran keluar/masuk.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-BNM",
+        "ACT-GHANA-CB"
+      ],
+      "mechanisms": "Peraturan bank, sekatan aliran, stablecoin bypass.",
+      "weaknesses": [
+        "W-CAPITAL-BYPASS"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-DOLLARIZATION"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C22-SANCTIONS",
+      "name": "Sanctions & geopolitik",
+      "definition": "Siapa boleh dikecualikan daripada sistem.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-TREASURY",
+        "ACT-CHAINALYSIS"
+      ],
+      "mechanisms": "SDN list, analisis rantaian, sekatan bank.",
+      "weaknesses": [
+        "W-SANCTIONS-EVASION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-SANCTIONS"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C23-STABLECOIN-INFRA",
+      "name": "Infrastruktur stablecoin",
+      "definition": "Siapa mengawal rel pembayaran dolar digital.",
+      "layer_primary": "L4",
+      "control_level": "K1",
+      "actors": [
+        "ACT-TETHER",
+        "ACT-CIRCLE"
+      ],
+      "mechanisms": "Duopoli USDT/USDC, rizab, peg.",
+      "weaknesses": [
+        "W-STABLECOIN-CONCENTRATION"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-USDC-DEPEG"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C24-INTERGEN-CONTRACT",
+      "name": "Kontrak antara generasi",
+      "definition": "Siapa menanggung kos masa depan.",
+      "layer_primary": "L5",
+      "control_level": "K3",
+      "actors": [
+        "ACT-GOV",
+        "ACT-FUTURE-GEN"
+      ],
+      "mechanisms": "Hutang awam, pencen, iklim.",
+      "weaknesses": [
+        "W-INTERGEN-TRANSFER"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-INTERGEN-DEBT"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C25-DISCOUNT-RATE",
+      "name": "Kadar diskaun sosial",
+      "definition": "Bagaimana kos masa depan dinilai.",
+      "layer_primary": "L5",
+      "control_level": "K2",
+      "actors": [
+        "ACT-GOV",
+        "ACT-ACADEMICS"
+      ],
+      "mechanisms": "Pilihan kadar diskaun, penilaian dasar.",
+      "weaknesses": [
+        "W-DISCOUNT-VALUE"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-INTERGEN-DEBT"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [
+        "EV-STERN-NORDHAUS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C26-FUTURE-REP",
+      "name": "Wakil generasi akan datang",
+      "definition": "Siapa bercakap untuk mereka yang belum lahir.",
+      "layer_primary": "L5",
+      "control_level": "K2",
+      "actors": [
+        "ACT-COMMISSIONER",
+        "ACT-PARLIAMENT"
+      ],
+      "mechanisms": "Komisioner bebas, audit intergenerational.",
+      "weaknesses": [
+        "W-FUTURE-NO-VOICE"
+      ],
+      "fallbacks": [],
+      "costs": [],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-FUTURE-COMMISSIONER-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "component_id": "C27-HIDDEN-LIABILITIES",
+      "name": "Liabiliti tersembunyi",
+      "definition": "Pencen, iklim, AI yang tidak dimasukkan dalam kunci kira-kira.",
+      "layer_primary": "L5",
+      "control_level": "K3",
+      "actors": [
+        "ACT-GOV",
+        "ACT-FUTURE-GEN"
+      ],
+      "mechanisms": "Pencen tidak didanai, kos iklim, risiko AI.",
+      "weaknesses": [
+        "W-HIDDEN-LIABILITY"
+      ],
+      "fallbacks": [],
+      "costs": [
+        "COST-INTERGEN-DEBT"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

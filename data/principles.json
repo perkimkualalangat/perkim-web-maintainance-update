@@ -1,0 +1,159 @@
+{
+  "principles": [
+    {
+      "principle_id": "P1-SAFE-TO-FAIL",
+      "name": "Safe-to-fail",
+      "definition": "Sistem direka supaya kegagalan berlaku kecil, tempatan, dan boleh dipulihkan.",
+      "metrics": [
+        "M-HHI-BANK",
+        "M-BLAST-RADIUS"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-TERRA-LUNA-2022",
+        "CASE-BRETTON-WOODS-1971"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-RELOFF-2009"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P2-POLYCENTRIC",
+      "name": "Polycentric governance",
+      "definition": "Ada berbilang pusat keputusan bebas yang saling menyemak.",
+      "metrics": [
+        "M-DECISION-CENTERS",
+        "M-OVERLAP-MANDATE"
+      ],
+      "failed_in_cases": [
+        "CASE-TERRA-LUNA-2022",
+        "CASE-BRETTON-WOODS-1971"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P3-FEEDBACK",
+      "name": "Feedback loop & ketelusan",
+      "definition": "Sistem menghasilkan maklumat yang membolehkan pembetulan sebelum krisis.",
+      "metrics": [
+        "M-DATA-LATENCY",
+        "M-AUDIT-COVERAGE"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-BRETTON-WOODS-1971"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P4-REGULATORY",
+      "name": "Regulasi adaptif",
+      "definition": "Peraturan boleh berubah berdasarkan bukti, bukan hanya reaksi selepas krisis.",
+      "metrics": [
+        "M-REG-LAG",
+        "M-SUNSET-RATE"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-TERRA-LUNA-2022",
+        "CASE-BRETTON-WOODS-1971"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P5-FALLBACK",
+      "name": "Fallback governance",
+      "definition": "Sandaran mempunyai trigger, authority, cost bearer, coverage, dan review yang jelas.",
+      "metrics": [
+        "M-FALLBACK-TRIGGER",
+        "M-FALLBACK-COST"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-TERRA-LUNA-2022"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P6-EXIT-VOICE",
+      "name": "Exit & voice",
+      "definition": "Peserta boleh keluar atau bersuara tanpa perlu revolusi.",
+      "metrics": [
+        "M-SWITCHING-COST",
+        "M-VOICE-PARTICIPATION"
+      ],
+      "failed_in_cases": [
+        "CASE-BRETTON-WOODS-1971",
+        "CASE-TERRA-LUNA-2022"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P7-MEMORY",
+      "name": "Memori institusi",
+      "definition": "Sistem mengingat kegagalan lampau dan mengubah reka bentuk.",
+      "metrics": [
+        "M-POSTMORTEM-RATE",
+        "M-REFORM-IMPLEMENTATION"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-TERRA-LUNA-2022"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-RELOFF-2009"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "principle_id": "P8-UNKNOWN",
+      "name": "Unknown unknowns",
+      "definition": "Sistem mempunyai buffer dan senario untuk perkara yang tidak dijangka.",
+      "metrics": [
+        "M-CAPITAL-BUFFER",
+        "M-SCENARIO-DIVERSITY"
+      ],
+      "failed_in_cases": [
+        "CASE-SVB-2023",
+        "CASE-TERRA-LUNA-2022",
+        "CASE-BRETTON-WOODS-1971"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIS-AI-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

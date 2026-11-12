@@ -1,0 +1,123 @@
+{
+  "fallbacks": [
+    {
+      "fallback_id": "F-SVB-SYSTEMIC-EXCEPTION",
+      "name": "Systemic risk exception (jaminan semua deposit)",
+      "trigger": "Risiko contagion kepada sistem kewangan",
+      "authority": "ACT-FDIC",
+      "cost_bearer": "ACT-BANK-OTHERS",
+      "coverage": "Semua pendeposit SVB, termasuk tidak diinsuranskan",
+      "time": "Serta-merta",
+      "moral_hazard": "Tinggi",
+      "procyclicality": "Rendah",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-TERRA-BTC-RESERVE",
+      "name": "Jualan rizab BTC (Luna Foundation Guard) — ad hoc",
+      "trigger": "Depeg UST mula berlaku",
+      "authority": "ACT-LFG",
+      "cost_bearer": "ACT-RETAIL",
+      "coverage": "Tidak mencukupi; rizab habis dalam beberapa hari",
+      "time": "Ad hoc, tanpa pelan",
+      "moral_hazard": "Tinggi",
+      "procyclicality": "Tinggi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-BW-IMF-LOAN",
+      "name": "Pinjaman IMF kepada negara defisit",
+      "trigger": "Negara menghadapi tekanan kadar tukaran",
+      "authority": "ACT-IMF",
+      "cost_bearer": "ACT-IMF-MEMBERS",
+      "coverage": "Terhad — tidak mencukupi untuk krisis besar",
+      "time": "Perlahan (rundingan)",
+      "moral_hazard": "Sederhana",
+      "procyclicality": "Tinggi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-BW-GOLD-POOL",
+      "name": "London Gold Pool (1961–1968)",
+      "trigger": "Tekanan ke atas harga emas",
+      "authority": "ACT-CENTRAL-BANKS",
+      "cost_bearer": "ACT-GOLD-POOL-MEMBERS",
+      "coverage": "Sementara; gagal 1968",
+      "time": "7 tahun",
+      "moral_hazard": "Rendah",
+      "procyclicality": "Tinggi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-PIDM-DEPOSIT-INSURANCE",
+      "name": "Insurans deposit PIDM (had RM250k)",
+      "trigger": "Kegagalan bank berlesen",
+      "authority": "ACT-PIDM",
+      "cost_bearer": "ACT-BANK-MY",
+      "coverage": "Deposit sehingga RM250k per depositor per bank",
+      "time": "Serta-merta",
+      "moral_hazard": "Sederhana",
+      "procyclicality": "Rendah",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-PIDM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-BNM-LOLR",
+      "name": "Bank Negara Malaysia sebagai lender of last resort",
+      "trigger": "Tekanan kecairan bank",
+      "authority": "ACT-BNM",
+      "cost_bearer": "ACT-BNM",
+      "coverage": "Bank berlesen dengan collateral layak",
+      "time": "Serta-merta",
+      "moral_hazard": "Sederhana",
+      "procyclicality": "Rendah",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "fallback_id": "F-USDC-CIRCLE-BACKSTOP",
+      "name": "Circle backstop untuk USDC semasa SVB",
+      "trigger": "Depeg USDC akibat pendedahan SVB",
+      "authority": "ACT-CIRCLE",
+      "cost_bearer": "ACT-CIRCLE",
+      "coverage": "Pemegang USDC",
+      "time": "Beberapa hari",
+      "moral_hazard": "Sederhana",
+      "procyclicality": "Rendah",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

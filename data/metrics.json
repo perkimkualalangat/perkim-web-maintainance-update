@@ -1,0 +1,260 @@
+{
+  "metrics": [
+    {
+      "metric_id": "M-HHI-BANK",
+      "name": "HHI bank",
+      "definition": "Herfindahl-Hirschman Index untuk konsentrasi bank.",
+      "unit": "Indeks 0–10,000",
+      "source": "Data regulator",
+      "strength": "Kuat",
+      "limitations": "Tidak menangkap interkoneksi tersembunyi.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-BLAST-RADIUS",
+      "name": "Blast radius",
+      "definition": "Bilangan institusi/pengguna terjejas jika satu komponen gagal.",
+      "unit": "Peratus / bilangan",
+      "source": "Stress test, simulasi",
+      "strength": "Sederhana",
+      "limitations": "Sukar diukur untuk risiko tidak linear.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-DECISION-CENTERS",
+      "name": "Bilangan pusat keputusan bebas",
+      "definition": "Bilangan institusi dengan kuasa veto/kelulusan berbeza.",
+      "unit": "Bilangan",
+      "source": "Struktur organisasi, undang-undang",
+      "strength": "Lemah",
+      "limitations": "'Bebas' sukar ditentukan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-OVERLAP-MANDATE",
+      "name": "Overlap mandat",
+      "definition": "Peratus mandat yang dikongsi antara dua atau lebih agensi.",
+      "unit": "Peratus",
+      "source": "Dokumen regulasi",
+      "strength": "Lemah",
+      "limitations": "Overlap boleh jadi konflik, bukan semakan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-DATA-LATENCY",
+      "name": "Kependaman data",
+      "definition": "Masa antara peristiwa dan pelaporan.",
+      "unit": "Jam / hari",
+      "source": "Log sistem, laporan regulator",
+      "strength": "Sederhana",
+      "limitations": "Data kripto pantas; data bank lambat.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-AUDIT-COVERAGE",
+      "name": "Liputan audit",
+      "definition": "Peratus institusi/protokol diaudit pihak ketiga.",
+      "unit": "Peratus",
+      "source": "Senarai audit",
+      "strength": "Sederhana",
+      "limitations": "Audit tidak menjamin kualiti.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-REG-LAG",
+      "name": "Lag regulasi",
+      "definition": "Masa antara inovasi dan regulasi pertama.",
+      "unit": "Bulan / tahun",
+      "source": "Kajian kes",
+      "strength": "Lemah",
+      "limitations": "Sukar menentukan titik mula inovasi.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-SUNSET-RATE",
+      "name": "Kadar sunset",
+      "definition": "Peratus regulasi dengan tarikh semakan.",
+      "unit": "Peratus",
+      "source": "Dokumen undang-undang",
+      "strength": "Sederhana",
+      "limitations": "Banyak regulasi tiada sunset.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-FALLBACK-TRIGGER",
+      "name": "Kejelasan trigger fallback",
+      "definition": "Bilangan fallback dengan trigger kuantitatif.",
+      "unit": "Bilangan / peratus",
+      "source": "Dokumen dasar",
+      "strength": "Sederhana",
+      "limitations": "Trigger kuantitatif tidak menjamin tindakan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-FALLBACK-COST",
+      "name": "Kejelasan cost bearer",
+      "definition": "Bilangan fallback dengan cost bearer ex-ante.",
+      "unit": "Bilangan / peratus",
+      "source": "Dokumen dasar",
+      "strength": "Sederhana",
+      "limitations": "Cost bearer sering berubah semasa krisis.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-SWITCHING-COST",
+      "name": "Kos keluar",
+      "definition": "Masa dan kos untuk memindahkan akaun/aset.",
+      "unit": "Jam / ringgit / dolar",
+      "source": "Kajian pengguna, data institusi",
+      "strength": "Sederhana",
+      "limitations": "Kos psikologi sukar diukur.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-VOICE-PARTICIPATION",
+      "name": "Kadar penyertaan voice",
+      "definition": "Peratus pemegang hak yang mengundi.",
+      "unit": "Peratus",
+      "source": "Data governance",
+      "strength": "Sederhana",
+      "limitations": "Penyertaan rendah boleh bermakna kepuasan atau apati.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-POSTMORTEM-RATE",
+      "name": "Kadar post-mortem",
+      "definition": "Peratus krisis dengan laporan post-mortem awam.",
+      "unit": "Peratus",
+      "source": "Laporan institusi",
+      "strength": "Lemah",
+      "limitations": "Post-mortem tidak menjamin perubahan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-REFORM-IMPLEMENTATION",
+      "name": "Kadar pelaksanaan reformasi",
+      "definition": "Peratus cadangan post-mortem yang dilaksanakan.",
+      "unit": "Peratus",
+      "source": "Laporan susulan",
+      "strength": "Lemah",
+      "limitations": "Sukar dijejaki.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-CAPITAL-BUFFER",
+      "name": "Nisbah buffer modal",
+      "definition": "Modal melebihi keperluan minimum.",
+      "unit": "Peratus",
+      "source": "Laporan bank",
+      "strength": "Sederhana",
+      "limitations": "Buffer tinggi ≠ buffer mencukupi.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    },
+    {
+      "metric_id": "M-SCENARIO-DIVERSITY",
+      "name": "Diversiti senario",
+      "definition": "Bilangan senario ekstrem yang diuji.",
+      "unit": "Bilangan",
+      "source": "Laporan stress test",
+      "strength": "Lemah",
+      "limitations": "Senario tidak menjamin liputan.",
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-IMF-STABLECOIN-2026"
+      ]
+    }
+  ]
+}

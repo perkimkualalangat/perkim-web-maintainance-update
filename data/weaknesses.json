@@ -1,0 +1,538 @@
+{
+  "weaknesses": [
+    {
+      "weakness_id": "W-SVB-LIQUIDITY",
+      "name": "Ketidakpadanan kecairan akibat kerugian bon",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C07-LIQUIDITY",
+        "C08-RISK-CAPITAL"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-SVB-UNINSURED-DEPOSITS",
+      "name": "Majoriti deposit melebihi had insurans $250k",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K1",
+      "affected_components": [
+        "C12-USER-PROTECTION"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-TERRA-ALGO-DESIGN",
+      "name": "Peg algorithmic bergantung pada refleksiviti pasaran",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C02-ISSUANCE",
+        "C07-LIQUIDITY",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-TERRA-CONCENTRATION",
+      "name": "Tadbir urus terpusat pada pengasas",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C10-GOVERNANCE"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-TERRA-NO-BUFFER",
+      "name": "Tiada collateral fizikal — rizab BTC tidak mencukupi",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C07-LIQUIDITY"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-BW-RIGIDITY",
+      "name": "Kadar tukaran tetap terlalu rigid",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C03-SETTLEMENT",
+        "C14-INTEROP"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-BW-ASYMMETRY",
+      "name": "Asimetri: AS tiada mekanisme penyesuaian",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C14-INTEROP"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-BW-TRIFFIN",
+      "name": "Triffin dilemma: defisit AS vs keyakinan emas",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C02-ISSUANCE",
+        "C03-SETTLEMENT"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-LEGITIMACY-NARRATIVE",
+      "name": "Naratif mengatasi bukti dan tiada mekanisme pembetulan",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C01-LEGITIMACY"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-RELOFF-2009"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-MODEL-RISK",
+      "name": "Model AI tidak stabil semasa tekanan dan menjadi homogen",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C08-RISK-CAPITAL",
+        "C18-MODEL-GOVERNANCE"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025",
+        "EV-GARP-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-COMPUTE-CONCENTRATION",
+      "name": "Konsentrasi compute pada 3 hyperscaler dan 1 pembekal cip",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K4",
+      "affected_components": [
+        "C16-COMPUTE-POWER"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-STABLECOIN-CONCENTRATION",
+      "name": "Duopoli USDT/USDC mengawal 83% pasaran",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K1",
+      "affected_components": [
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-INTERGEN-TRANSFER",
+      "name": "Penangguhan fiskal memindahkan kos kepada kohort kemudian",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C24-INTERGEN-CONTRACT",
+        "C27-HIDDEN-LIABILITIES"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-CRISIS-SPEED",
+      "name": "Kelajuan bank run algoritma melebihi keupayaan institusi",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C15-CRISIS-COMMS"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-CUSTODY-PRIVATE-KEY",
+      "name": "Private key boleh dicuri atau hilang",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K1",
+      "affected_components": [
+        "C05-CUSTODY"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-IDENTITY-EXCLUSION",
+      "name": "KYC/AML mengecualikan golongan tanpa dokumen",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K1",
+      "affected_components": [
+        "C06-IDENTITY"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-WORLD-BANK-FINDEX-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-LAW-CROSS-BORDER",
+      "name": "Penguatkuasaan undang-undang rentas sempadan lemah",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C04-LAW"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-AUDIT-OFFCHAIN",
+      "name": "Ketelusan off-chain lemah berbanding on-chain",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C09-AUDIT"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-OPS-CYBER",
+      "name": "Risiko siber dan gangguan operasi",
+      "type": "Eksogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C11-OPERATIONS"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-INTEROP-BRIDGE",
+      "name": "Bridge exploit dan jurang standard",
+      "type": "Endogen",
+      "time": "Akut",
+      "visibility": "Diketahui",
+      "distribution": "Tertumpu",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C14-INTEROP"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-MODEL-VALIDATION-GAP",
+      "name": "Rangka kerja validasi model tidak sesuai untuk AI dinamik",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C18-MODEL-GOVERNANCE"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-EPISTEMIC-SHIFT",
+      "name": "Autoriti epistemik beralih kepada model opaque",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Tersembunyi",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C19-EPISTEMIC-AUTHORITY"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-STABLECOIN-DOLLARIZATION",
+      "name": "Stablecoin mempercepatkan dolarisasi dan menghakis kedaulatan monetari",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C20-MONETARY-SOVEREIGNTY",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-CAPITAL-BYPASS",
+      "name": "Stablecoin membolehkan bypass kawalan modal",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Separa",
+      "control_level": "K2",
+      "affected_components": [
+        "C21-CAPITAL-CONTROLS"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-SANCTIONS-EVASION",
+      "name": "Pengelakan sanctions melalui kripto (~$100 bilion 2025)",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C22-SANCTIONS"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-DISCOUNT-VALUE",
+      "name": "Kadar diskaun sosial adalah pilihan nilai, bukan teknikal",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K2",
+      "affected_components": [
+        "C25-DISCOUNT-RATE"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-FUTURE-NO-VOICE",
+      "name": "Generasi akan datang tiada suara formal",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Diketahui",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C26-FUTURE-REP"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-DATA-EXTRACTION",
+      "name": "Ekstraksi data tanpa pampasan daripada Global South",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Separa",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C17-DATA-POWER"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "weakness_id": "W-HIDDEN-LIABILITY",
+      "name": "Liabiliti tersembunyi tidak dimasukkan dalam kunci kira-kira",
+      "type": "Endogen",
+      "time": "Kronik",
+      "visibility": "Tersembunyi",
+      "distribution": "Tersebar",
+      "reversibility": "Tidak",
+      "control_level": "K3",
+      "affected_components": [
+        "C27-HIDDEN-LIABILITIES"
+      ],
+      "evidence_status": "Teoritikal",
+      "sources": [],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "reflexivity": [
+    {
+      "reflexivity_id": "REF-AI-HERDING",
+      "model_or_metric": "Model AI dalam pasaran kewangan",
+      "behavior_change": "Peserta meniru isyarat yang sama, meningkatkan korelasi",
+      "feedback_loop": "Model sama → keputusan sama → harga bergerak → model belajar → korelasi meningkat",
+      "evidence": "EV-BIS-AI-2025",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIS-AI-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "reflexivity_id": "REF-STABLECOIN-PEG",
+      "model_or_metric": "Peg stablecoin",
+      "behavior_change": "Pemegang menjual apabila peg goyah, mempercepatkan depeg",
+      "feedback_loop": "Peg goyah → jual → harga jatuh → lagi jual",
+      "evidence": "EV-TERRA-2022-POSTMORTEM",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "reflexivity_id": "REF-CREDIT-SCORE",
+      "model_or_metric": "Skor kredit AI",
+      "behavior_change": "Individu mengubah tingkah laku untuk memenuhi skor",
+      "feedback_loop": "Skor rendah → tingkah laku berubah → data berubah → skor berubah",
+      "evidence": "EV-BIRHANE-2026",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "reflexivity_id": "REF-INFLATION-EXPECTATIONS",
+      "model_or_metric": "Jangkaan inflasi",
+      "behavior_change": "Pekerja minta gaji lebih tinggi apabila jangkaan inflasi naik",
+      "feedback_loop": "Jangkaan naik → gaji naik → harga naik → jangkaan naik",
+      "evidence": "EV-OLG-2026",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "narratives": [
+    {
+      "narrative_id": "NAR-AI-NEUTRAL",
+      "claim": "AI adalah teknologi neutral; kesannya bergantung pada cara ia digunakan.",
+      "who_promotes": [
+        "ACT-HYPERSCALERS",
+        "ACT-MEDIA"
+      ],
+      "evidence_against": "Konsentrasi compute dan regulatory capture menunjukkan AI bukan neutral.",
+      "capture_risk": "Tinggi",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "narrative_id": "NAR-CRYPTO-TRUSTLESS",
+      "claim": "Kripto adalah trustless; kod menggantikan kepercayaan.",
+      "who_promotes": [
+        "ACT-TERRAFORM",
+        "ACT-RETAIL"
+      ],
+      "evidence_against": "Bridge exploit, exchange centralization, dan governance plutokratik menunjukkan trust masih diperlukan.",
+      "capture_risk": "Sederhana",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "narrative_id": "NAR-HUTANG-TIDAK-MENGAPA",
+      "claim": "Hutang awam tidak mengapa selagi GDP tumbuh.",
+      "who_promotes": [
+        "ACT-GOV",
+        "ACT-PARLIAMENT"
+      ],
+      "evidence_against": "OLG menunjukkan penangguhan fiskal memindahkan kos kepada kohort kemudian.",
+      "capture_risk": "Tinggi",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "narrative_id": "NAR-REGULASI-STIFLE",
+      "claim": "Regulasi menghalang inovasi.",
+      "who_promotes": [
+        "ACT-HYPERSCALERS",
+        "ACT-BINANCE"
+      ],
+      "evidence_against": "Sandbox dan regulasi adaptif boleh membolehkan inovasi dengan risiko terkawal.",
+      "capture_risk": "Tinggi",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "narrative_id": "NAR-STABLECOIN-DOLAR",
+      "claim": "Stablecoin adalah cara mudah untuk menyimpan dolar.",
+      "who_promotes": [
+        "ACT-TETHER",
+        "ACT-CIRCLE"
+      ],
+      "evidence_against": "Stablecoin mempercepatkan dolarisasi dan menghakis kedaulatan monetari negara membangun.",
+      "capture_risk": "Sederhana",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

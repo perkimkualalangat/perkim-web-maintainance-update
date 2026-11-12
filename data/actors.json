@@ -1,0 +1,606 @@
+{
+  "actors": [
+    {
+      "actor_id": "ACT-BNM",
+      "name": "Bank Negara Malaysia",
+      "type": "Regulator",
+      "power_forms": "Kuasa monetari, kuasa regulasi, kuasa LOLR",
+      "interests": "Kestabilan harga, kestabilan kewangan",
+      "accountability": "Parlimen, Menteri Kewangan",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-PIDM",
+      "name": "Perbadanan Insurans Deposit Malaysia",
+      "type": "Regulator",
+      "power_forms": "Kuasa insurans deposit",
+      "interests": "Perlindungan pendeposit",
+      "accountability": "Parlimen",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-PIDM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-SC",
+      "name": "Suruhanjaya Sekuriti Malaysia",
+      "type": "Regulator",
+      "power_forms": "Kuasa regulasi pasaran modal",
+      "interests": "Pasaran adil dan teratur",
+      "accountability": "Menteri Kewangan",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-BANK-MY",
+      "name": "Bank berlesen Malaysia",
+      "type": "Bank",
+      "power_forms": "Kuasa kredit, kuasa deposit",
+      "interests": "Keuntungan, kestabilan",
+      "accountability": "BNM, pemegang saham",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-PAYNET",
+      "name": "PayNet (infrastruktur pembayaran)",
+      "type": "Platform",
+      "power_forms": "Kuasa infrastruktur pembayaran",
+      "interests": "Ketersambungan, kecekapan",
+      "accountability": "BNM, bank ahli",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-MAHKAMAH",
+      "name": "Mahkamah Malaysia",
+      "type": "Negara",
+      "power_forms": "Kuasa penguatkuasaan kontrak",
+      "interests": "Keadilan, ketertiban",
+      "accountability": "Perlembagaan",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-FDIC",
+      "name": "Federal Deposit Insurance Corporation",
+      "type": "Regulator",
+      "power_forms": "Kuasa resolution, kuasa insurans deposit",
+      "interests": "Kestabilan sistem, perlindungan pendeposit",
+      "accountability": "Kongres, mahkamah",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-FED",
+      "name": "Federal Reserve",
+      "type": "Regulator",
+      "power_forms": "Kuasa monetari, kuasa LOLR",
+      "interests": "Kestabilan harga, kestabilan kewangan",
+      "accountability": "Kongres",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FED-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-TREASURY",
+      "name": "US Treasury",
+      "type": "Negara",
+      "power_forms": "Kuasa fiskal, kuasa sanctions",
+      "interests": "Kepentingan domestik AS",
+      "accountability": "Kongres AS",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-SVB",
+      "name": "Silicon Valley Bank",
+      "type": "Bank",
+      "power_forms": "Kuasa kredit, kuasa deposit",
+      "interests": "Pertumbuhan, keuntungan",
+      "accountability": "FDIC (dalam resolution)",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-CIRCLE",
+      "name": "Circle (pengeluar USDC)",
+      "type": "Platform",
+      "power_forms": "Kuasa pengeluaran stablecoin",
+      "interests": "Kestabilan USDC, legitimasi regulasi",
+      "accountability": "Regulator AS",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-BANK-OTHERS",
+      "name": "Bank lain (melalui levy DIF)",
+      "type": "Bank",
+      "power_forms": "Kuasa pasaran",
+      "interests": "Kestabilan, kos rendah",
+      "accountability": "Regulator, pemegang saham",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-TETHER",
+      "name": "Tether (pengeluar USDT)",
+      "type": "Platform",
+      "power_forms": "Kuasa pengeluaran stablecoin, kuasa rizab",
+      "interests": "Pertumbuhan, keuntungan",
+      "accountability": "Lemah — audit terhad",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-BINANCE",
+      "name": "Binance",
+      "type": "Platform",
+      "power_forms": "Kuasa exchange, kuasa kecairan",
+      "interests": "Volum, keuntungan",
+      "accountability": "Regulator pelbagai negara",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-COINBASE",
+      "name": "Coinbase",
+      "type": "Platform",
+      "power_forms": "Kuasa exchange, kuasa custody",
+      "interests": "Volum, pematuhan",
+      "accountability": "SEC, regulator AS",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-VALIDATORS",
+      "name": "Validator rangkaian kripto",
+      "type": "Platform",
+      "power_forms": "Kuasa konsensus, kuasa pengesahan",
+      "interests": "Ganjaran staking, kestabilan rangkaian",
+      "accountability": "Komuniti, foundation",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-RETAIL",
+      "name": "Pelabur runcit kripto",
+      "type": "Individu",
+      "power_forms": "Kuasa pasaran (terhad)",
+      "interests": "Pulangan, simpanan",
+      "accountability": "Tiada",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-TERRAFORM",
+      "name": "Terraform Labs",
+      "type": "Platform",
+      "power_forms": "Kuasa penciptaan, kuasa naratif",
+      "interests": "Pertumbuhan ekosistem, nilai LUNA",
+      "accountability": "Lemah — tiada regulator formal sebelum 2022",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-DO-KWON",
+      "name": "Do Kwon (pengasas Terra)",
+      "type": "Individu",
+      "power_forms": "Kuasa keputusan terpusat",
+      "interests": "Visi ekosistem, reputasi",
+      "accountability": "Tidak formal sehingga pendakwaan",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-LFG",
+      "name": "Luna Foundation Guard",
+      "type": "Platform",
+      "power_forms": "Kuasa rizab",
+      "interests": "Pertahankan peg UST",
+      "accountability": "Lemah — struktur tidak telus",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-IMF",
+      "name": "International Monetary Fund",
+      "type": "Regulator",
+      "power_forms": "Kuasa pinjaman, kuasa pengawasan",
+      "interests": "Kestabilan kadar tukaran",
+      "accountability": "Negara anggota",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-IMF-MEMBERS",
+      "name": "Negara anggota IMF",
+      "type": "Negara",
+      "power_forms": "Kuasa sumbangan, kuasa undi",
+      "interests": "Kestabilan, akses pinjaman",
+      "accountability": "Rakyat masing-masing",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-US-TREASURY-BW",
+      "name": "US Treasury (era Bretton Woods)",
+      "type": "Negara",
+      "power_forms": "Kuasa anchor (emas), kuasa veto",
+      "interests": "Kepentingan domestik AS",
+      "accountability": "Kongres AS",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-NIXON",
+      "name": "Presiden Richard Nixon",
+      "type": "Individu",
+      "power_forms": "Kuasa unilateral",
+      "interests": "Politik domestik, inflasi",
+      "accountability": "Pengundi AS",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-NIXON-1971"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-FRANCE",
+      "name": "Kerajaan Perancis (de Gaulle)",
+      "type": "Negara",
+      "power_forms": "Kuasa menukar dolar kepada emas",
+      "interests": "Kedaulatan monetari",
+      "accountability": "Rakyat Perancis",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-CENTRAL-BANKS",
+      "name": "Bank pusat utama (Gold Pool)",
+      "type": "Regulator",
+      "power_forms": "Kuasa pasaran emas",
+      "interests": "Kestabilan harga emas",
+      "accountability": "Kerajaan masing-masing",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-GOLD-POOL-MEMBERS",
+      "name": "Ahli London Gold Pool",
+      "type": "Regulator",
+      "power_forms": "Kuasa bekalan emas",
+      "interests": "Kestabilan harga emas",
+      "accountability": "Kerajaan masing-masing",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-DOLLAR-HOLDERS",
+      "name": "Pemegang dolar global",
+      "type": "Individu",
+      "power_forms": "Kuasa pasaran",
+      "interests": "Nilai simpanan",
+      "accountability": "Tiada",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-NIXON-1971"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-USDC-HOLDERS",
+      "name": "Pemegang USDC",
+      "type": "Individu",
+      "power_forms": "Kuasa pasaran",
+      "interests": "Peg 1:1, kecairan",
+      "accountability": "Tiada",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-NVIDIA",
+      "name": "NVIDIA",
+      "type": "Platform",
+      "power_forms": "Kuasa pembekalan cip AI (80–90% pasaran)",
+      "interests": "Keuntungan, dominasi pasaran",
+      "accountability": "Pemegang saham, regulator antitrust",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-HYPERSCALERS",
+      "name": "Hyperscaler (AWS, Azure, GCP)",
+      "type": "Platform",
+      "power_forms": "Kuasa compute, kuasa cloud, kuasa data",
+      "interests": "Keuntungan, dominasi",
+      "accountability": "Regulator antitrust, pemegang saham",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-GLOBAL-SOUTH",
+      "name": "Komuniti Global South",
+      "type": "Komuniti",
+      "power_forms": "Kuasa data, kuasa buruh (terhad)",
+      "interests": "Kedaulatan data, pampasan",
+      "accountability": "Tiada dalam tadbir urus AI global",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-UDDIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-REGULATOR-AI",
+      "name": "Regulator AI (EU AI Act, dsb.)",
+      "type": "Regulator",
+      "power_forms": "Kuasa audit, kuasa denda",
+      "interests": "Keselamatan, hak asasi",
+      "accountability": "Parlimen, mahkamah",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-BIRHANE-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-MEDIA",
+      "name": "Media dan platform sosial",
+      "type": "Platform",
+      "power_forms": "Kuasa naratif, kuasa algoritma",
+      "interests": "Penglibatan, keuntungan",
+      "accountability": "Regulator, komuniti",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-SHIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-COMMUNITIES",
+      "name": "Komuniti tempatan terjejas",
+      "type": "Komuniti",
+      "power_forms": "Kuasa politik (terhad)",
+      "interests": "Alam sekitar, kesihatan",
+      "accountability": "Tiada",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-CSA-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-SOCIETY",
+      "name": "Masyarakat keseluruhan",
+      "type": "Komuniti",
+      "power_forms": "Kuasa demokratik (tidak sekata)",
+      "interests": "Kestabilan, keadilan",
+      "accountability": "Institusi demokratik",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-SHIN-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-GHANA-CB",
+      "name": "Bank of Ghana",
+      "type": "Regulator",
+      "power_forms": "Kuasa monetari, kuasa kawalan modal",
+      "interests": "Kedaulatan monetari",
+      "accountability": "Kerajaan Ghana",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-GOV",
+      "name": "Kerajaan (fiskal)",
+      "type": "Negara",
+      "power_forms": "Kuasa fiskal, kuasa cukai",
+      "interests": "Politik jangka pendek, hasil",
+      "accountability": "Pengundi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-FUTURE-GEN",
+      "name": "Generasi akan datang",
+      "type": "Komuniti",
+      "power_forms": "Tiada suara formal",
+      "interests": "Keadilan antara generasi",
+      "accountability": "Tiada",
+      "evidence_status": "Teoritikal",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-COMMISSIONER",
+      "name": "Komisioner generasi akan datang",
+      "type": "Regulator",
+      "power_forms": "Kuasa penasihat, kuasa audit",
+      "interests": "Keadilan antara generasi",
+      "accountability": "Parlimen",
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-FUTURE-COMMISSIONER-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-PARLIAMENT",
+      "name": "Parlimen",
+      "type": "Negara",
+      "power_forms": "Kuasa legislatif, kuasa belanjawan",
+      "interests": "Politik jangka pendek",
+      "accountability": "Pengundi",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-OLG-2026"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-ACADEMICS",
+      "name": "Ahli akademik",
+      "type": "Individu",
+      "power_forms": "Kuasa epistemik",
+      "interests": "Ilmu, reputasi",
+      "accountability": "Institusi akademik",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-STERN-NORDHAUS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "actor_id": "ACT-CHAINALYSIS",
+      "name": "Chainalysis",
+      "type": "Platform",
+      "power_forms": "Kuasa analisis rantaian",
+      "interests": "Pematuhan, keuntungan",
+      "accountability": "Klien, regulator",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

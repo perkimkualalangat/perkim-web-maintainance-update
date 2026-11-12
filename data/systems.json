@@ -1,0 +1,168 @@
+{
+  "systems": [
+    {
+      "system_id": "SYS-FIAT-MY-2026",
+      "name": "Sistem kewangan fiat Malaysia 2026",
+      "type": "Fiat",
+      "scope": "Nasional",
+      "timeframe": "2026",
+      "description": "Sistem fiat dengan bank pusat (BNM), bank berlesen, sistem pembayaran DuitNow, insurans deposit PIDM, dan regulasi sekuriti.",
+      "key_actors": [
+        "ACT-BNM",
+        "ACT-PIDM",
+        "ACT-SC",
+        "ACT-BANK-MY",
+        "ACT-PAYNET"
+      ],
+      "key_components": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C03-SETTLEMENT",
+        "C04-LAW",
+        "C05-CUSTODY",
+        "C06-IDENTITY",
+        "C07-LIQUIDITY",
+        "C08-RISK-CAPITAL",
+        "C09-AUDIT",
+        "C10-GOVERNANCE",
+        "C11-OPERATIONS",
+        "C12-USER-PROTECTION",
+        "C13-INCENTIVES",
+        "C14-INTEROP",
+        "C15-CRISIS-COMMS"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BNM-AR-2025",
+        "EV-PIDM-AR-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "system_id": "SYS-CRYPTO-GLOBAL-2026",
+      "name": "Sistem kripto global 2026",
+      "type": "Kripto",
+      "scope": "Global",
+      "timeframe": "2026",
+      "description": "Ekosistem Bitcoin, Ethereum, stablecoin USDT/USDC, DeFi, exchange berpusat, dan rangkaian L2.",
+      "key_actors": [
+        "ACT-TETHER",
+        "ACT-CIRCLE",
+        "ACT-BINANCE",
+        "ACT-COINBASE",
+        "ACT-VALIDATORS",
+        "ACT-RETAIL"
+      ],
+      "key_components": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C03-SETTLEMENT",
+        "C05-CUSTODY",
+        "C06-IDENTITY",
+        "C07-LIQUIDITY",
+        "C09-AUDIT",
+        "C10-GOVERNANCE",
+        "C13-INCENTIVES",
+        "C14-INTEROP",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-IMF-STABLECOIN-2026",
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "system_id": "SYS-HYBRID-US-2023",
+      "name": "Sistem kewangan hibrid AS (semasa krisis SVB)",
+      "type": "Hibrid",
+      "scope": "Nasional",
+      "timeframe": "Mac 2023",
+      "description": "Tindanan fiat + kripto (USDC) + platform digital (X/Twitter) semasa krisis SVB.",
+      "key_actors": [
+        "ACT-FDIC",
+        "ACT-FED",
+        "ACT-TREASURY",
+        "ACT-SVB",
+        "ACT-CIRCLE",
+        "ACT-BANK-OTHERS"
+      ],
+      "key_components": [
+        "C01-LEGITIMACY",
+        "C05-CUSTODY",
+        "C07-LIQUIDITY",
+        "C08-RISK-CAPITAL",
+        "C12-USER-PROTECTION",
+        "C15-CRISIS-COMMS",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB",
+        "EV-FED-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "system_id": "SYS-CRYPTO-TERRA-2022",
+      "name": "Ekosistem Terra/Luna",
+      "type": "Kripto",
+      "scope": "Global",
+      "timeframe": "Mei 2022",
+      "description": "Algorithmic stablecoin UST dipatok kepada LUNA melalui mekanisme mint/burn; runtuh dalam ~10 hari.",
+      "key_actors": [
+        "ACT-TERRAFORM",
+        "ACT-DO-KWON",
+        "ACT-LFG",
+        "ACT-RETAIL"
+      ],
+      "key_components": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C07-LIQUIDITY",
+        "C10-GOVERNANCE",
+        "C13-INCENTIVES",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM",
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "system_id": "SYS-FIAT-BW-1971",
+      "name": "Sistem Bretton Woods",
+      "type": "Fiat",
+      "scope": "Global",
+      "timeframe": "1944–1971",
+      "description": "Sistem kadar tukaran tetap berlabuh pada dolar AS dan emas; berakhir dengan Nixon Shock 1971.",
+      "key_actors": [
+        "ACT-IMF",
+        "ACT-US-TREASURY-BW",
+        "ACT-NIXON",
+        "ACT-FRANCE"
+      ],
+      "key_components": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C03-SETTLEMENT",
+        "C04-LAW",
+        "C14-INTEROP"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY",
+        "EV-BW-NIXON-1971"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

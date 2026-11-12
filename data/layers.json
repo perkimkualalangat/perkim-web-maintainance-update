@@ -1,0 +1,128 @@
+{
+  "layers": [
+    {
+      "layer_id": "L1",
+      "name": "Naratif & legitimasi",
+      "description": "Cerita, kepercayaan, makna yang memberi legitimasi kepada sistem.",
+      "components": [
+        "C01-LEGITIMACY",
+        "C15-CRISIS-COMMS"
+      ],
+      "power_forms": "Kuasa naratif, kuasa epistemik, kuasa media",
+      "gaps": [
+        "Naratif mengatasi bukti",
+        "Naratif bercanggah antara lapisan"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-RELOFF-2009"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "layer_id": "L2",
+      "name": "Institusi & undang-undang",
+      "description": "Peraturan, penguatkuasaan, tadbir urus formal.",
+      "components": [
+        "C02-ISSUANCE",
+        "C04-LAW",
+        "C06-IDENTITY",
+        "C10-GOVERNANCE",
+        "C12-USER-PROTECTION"
+      ],
+      "power_forms": "Kuasa regulasi, kuasa fiskal, kuasa penguatkuasaan",
+      "gaps": [
+        "Regulatory capture",
+        "Lag regulasi",
+        "Penguatkuasaan rentas sempadan lemah"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIRHANE-2026",
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "layer_id": "L3",
+      "name": "Teknikal & infrastruktur",
+      "description": "Sistem, kod, rangkaian, data.",
+      "components": [
+        "C03-SETTLEMENT",
+        "C05-CUSTODY",
+        "C09-AUDIT",
+        "C11-OPERATIONS",
+        "C14-INTEROP",
+        "C16-COMPUTE-POWER",
+        "C17-DATA-POWER"
+      ],
+      "power_forms": "Kuasa infrastruktur, kuasa data, kuasa komputasi",
+      "gaps": [
+        "Konsentrasi hyperscaler",
+        "Bridge exploit",
+        "Off-chain opacity"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-CSA-2025",
+        "EV-BIS-AI-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "layer_id": "L4",
+      "name": "Ekonomi & tingkah laku",
+      "description": "Insentif, pasaran, kognisi, tabiat.",
+      "components": [
+        "C07-LIQUIDITY",
+        "C08-RISK-CAPITAL",
+        "C13-INCENTIVES",
+        "C18-MODEL-GOVERNANCE",
+        "C19-EPISTEMIC-AUTHORITY",
+        "C20-MONETARY-SOVEREIGNTY",
+        "C21-CAPITAL-CONTROLS",
+        "C22-SANCTIONS",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "power_forms": "Kuasa pasaran, kuasa insentif, kuasa maklumat",
+      "gaps": [
+        "Procyclicality",
+        "Moral hazard",
+        "Reflexivity"
+      ],
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BIS-AI-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "layer_id": "L5",
+      "name": "Resilience & luar kawalan",
+      "description": "Buffer, fallback, kejutan, unknown unknowns.",
+      "components": [
+        "C24-INTERGEN-CONTRACT",
+        "C25-DISCOUNT-RATE",
+        "C26-FUTURE-REP",
+        "C27-HIDDEN-LIABILITIES"
+      ],
+      "power_forms": "Kuasa masa, kuasa buffer, kuasa takdir",
+      "gaps": [
+        "Tail risk",
+        "Unknown unknowns",
+        "Kos generasi akan datang"
+      ],
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-OLG-2026",
+        "EV-STERN-NORDHAUS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

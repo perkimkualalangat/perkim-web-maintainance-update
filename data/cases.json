@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "case_id": "CASE-SVB-2023",
+      "name": "Krisis Silicon Valley Bank 2023",
+      "date": "2023-03",
+      "system": "SYS-HYBRID-US-2023",
+      "principles_failed": [
+        "P1-SAFE-TO-FAIL",
+        "P3-FEEDBACK",
+        "P5-FALLBACK",
+        "P7-MEMORY",
+        "P8-UNKNOWN"
+      ],
+      "components_affected": [
+        "C07-LIQUIDITY",
+        "C12-USER-PROTECTION",
+        "C15-CRISIS-COMMS",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "costs": [
+        "COST-SVB-DIF",
+        "COST-USDC-DEPEG"
+      ],
+      "lessons": "Bank run algoritma melalui media sosial mempercepatkan kegagalan; fallback ad hoc; memori institusi gagal.",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB",
+        "EV-FED-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "case_id": "CASE-TERRA-LUNA-2022",
+      "name": "Keruntuhan Terra/Luna",
+      "date": "2022-05",
+      "system": "SYS-CRYPTO-TERRA-2022",
+      "principles_failed": [
+        "P1-SAFE-TO-FAIL",
+        "P2-POLYCENTRIC",
+        "P4-REGULATORY",
+        "P5-FALLBACK",
+        "P7-MEMORY",
+        "P8-UNKNOWN"
+      ],
+      "components_affected": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C07-LIQUIDITY",
+        "C10-GOVERNANCE",
+        "C13-INCENTIVES",
+        "C23-STABLECOIN-INFRA"
+      ],
+      "costs": [
+        "COST-TERRA-$40B",
+        "COST-TERRA-CONTAGION"
+      ],
+      "lessons": "Peg algorithmic tanpa collateral fizikal = fail-together. Tiada fallback governance. Tadbir urus terpusat. Memori institusi gagal.",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM",
+        "EV-TERRA-2022-CHAINALYSIS"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "case_id": "CASE-BRETTON-WOODS-1971",
+      "name": "Kejatuhan Bretton Woods",
+      "date": "1971-08-15",
+      "system": "SYS-FIAT-BW-1971",
+      "principles_failed": [
+        "P1-SAFE-TO-FAIL",
+        "P2-POLYCENTRIC",
+        "P3-FEEDBACK",
+        "P4-REGULATORY",
+        "P6-EXIT-VOICE",
+        "P8-UNKNOWN"
+      ],
+      "components_affected": [
+        "C01-LEGITIMACY",
+        "C02-ISSUANCE",
+        "C03-SETTLEMENT",
+        "C14-INTEROP"
+      ],
+      "costs": [
+        "COST-BW-NIXON"
+      ],
+      "lessons": "Sistem rigid tanpa mekanisme penyesuaian; asimetri kuasa AS; feedback loop disekat oleh komitmen politik; tiada exit teratur.",
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY",
+        "EV-BW-NIXON-1971"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

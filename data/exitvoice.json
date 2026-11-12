@@ -1,0 +1,56 @@
+{
+  "exitvoice": [
+    {
+      "exitvoice_id": "EV-SVB-EXIT",
+      "system": "SYS-HYBRID-US-2023",
+      "exit_cost": "Tinggi semasa bank run — sistem digital freeze, masa pemprosesan lama",
+      "voice_power": "Lemah — pendeposit tiada suara dalam tadbir urus bank",
+      "contestability_score": 20,
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-FDIC-2023-SVB"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "exitvoice_id": "EV-TERRA-EXIT",
+      "system": "SYS-CRYPTO-TERRA-2022",
+      "exit_cost": "Tinggi semasa panik — kecairan hilang, harga jatuh",
+      "voice_power": "Sangat lemah — keputusan terpusat pada Do Kwon",
+      "contestability_score": 10,
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-TERRA-2022-POSTMORTEM"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "exitvoice_id": "EV-BW-EXIT",
+      "system": "SYS-FIAT-BW-1971",
+      "exit_cost": "Tiada exit teratur — negara defisit terperangkap",
+      "voice_power": "Terhad — negara kecil tiada kuasa mengubah peraturan",
+      "contestability_score": 15,
+      "evidence_status": "Kuat",
+      "sources": [
+        "EV-BW-IMF-HISTORY"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "exitvoice_id": "EV-CRYPTO-EXIT",
+      "system": "SYS-CRYPTO-GLOBAL-2026",
+      "exit_cost": "Sederhana — boleh jual, tetapi kecairan terhad semasa panik",
+      "voice_power": "Lemah — DAO plutokratik, validator besar dominan",
+      "contestability_score": 40,
+      "evidence_status": "Lemah",
+      "sources": [
+        "EV-CHAINALYSIS-2025"
+      ],
+      "created_at": "2026-11-06",
+      "updated_at": "2026-11-06"
+    }
+  ]
+}

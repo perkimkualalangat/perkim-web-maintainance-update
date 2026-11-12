@@ -1,0 +1,73 @@
+{
+  "name": "perkim-web-maintenance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PERKIM Web Maintenance Dashboard — Manage, sync, and deploy perkim-web with Nemotron 3 Ultra AI assistance. React 19 + Astryx Design System + Express Server.",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "node server/server.mjs",
+    "start": "node server/server.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/at2.mjs",
+    "astryx": "node node_modules/@astryxdesign/cli/clients/cli/bin/astryx.mjs",
+    "doctor": "node node_modules/@astryxdesign/cli/clients/cli/bin/astryx.mjs doctor --built dist",
+    "server": "node server/server.mjs",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
+    "sync": "node server/sync-engine.mjs",
+    "deploy": "node server/deploy.mjs",
+    "validate": "node server/checks.mjs",
+    "scan": "node server/scan.mjs"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "keywords": [
+    "perkim",
+    "maintenance",
+    "dashboard",
+    "astryx",
+    "react",
+    "nvidia",
+    "nemotron",
+    "ai",
+    "file-management",
+    "sync",
+    "deploy"
+  ],
+  "dependencies": {
+    "@astryxdesign/core": "^0.7.8",
+    "@astryxdesign/theme-neutral": "^0.7.8",
+    "@heroicons/react": "^2.2.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@stylexjs/stylex": "^0.19.1",
+    "chokidar": "^3.6.0",
+    "diff": "^5.2.0",
+    "express": "^4.18.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "sharp": "^0.33.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@astryxdesign/cli": "^0.7.8",
+    "@types/express": "^4.17.21",
+    "@vitejs/plugin-react": "^6.2.1",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.28.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.0",
+    "vite": "^8.3.6",
+    "vitest": "^1.0.0"
+  },
+  "allowScripts": {
+    "@astryxdesign/cli@0.7.14": true,
+    "@astryxdesign/core@0.7.14": true,
+    "esbuild@0.28.2": true,
+    "esbuild@0.21.5": true,
+    "sharp@0.33.5": true
+  }
+}
